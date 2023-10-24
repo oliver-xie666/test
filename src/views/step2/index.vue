@@ -12,6 +12,9 @@ const { replace } = useRouter()
       <el-button type="primary" @click="replace('/')">
         Back
       </el-button>
+      <el-button type="primary" @click="replace('/')">
+        Back
+      </el-button>
     </template>
   </el-result>
 </template>
